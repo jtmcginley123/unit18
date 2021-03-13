@@ -18,6 +18,7 @@
 
 8. From there, I followed these steps in the terminal:
         - ./puppeth
+![Puppeth in Mac Terminal](https://github.com/jtmcginley123/unit18/blob/master/Screenshots/puppeth-config.png)
 
 9. name your network: alterra
 
@@ -63,6 +64,8 @@
 
 25. From then both terminals were moving so I took this as a good sign.
 
+![Node1 and Node2 working in Mac Terminal](https://github.com/jtmcginley123/unit18/blob/master/Screenshots/nodes-running.png)
+
 26. I then proceeded to send a test transaction through MyCrypto.
 
 27. I clicked 'Change Network'.
@@ -81,5 +84,13 @@
 30. I uploaded my keystore file that was located in my node1 folder with in my 'block-chain-tools'.
 
 31. This allowed for me to be able to send a transaction from node1 to node2 with just inputting the node2 public address.
+    - This is the transaction that I wanted to send:
+        ![Transaction in MyCrypto](https://github.com/jtmcginley123/unit18/blob/master/Screenshots/nodes-running.png)
+    - This is confirming that I want to send this transaction: 
+        ![Transaction Confirming in MyCrypto](https://github.com/jtmcginley123/unit18/blob/master/Screenshots/sending-transaction2.png)
 
 32. I clicked 'Send' and 'Send' again. The transaction went through. The status was 'Pending' but it did say that it may take 3+ hours to confirm. 
+    - Here is the transaction status that came back in MyCrypto:
+        ![Transaction Status in MyCrypto](https://github.com/jtmcginley123/unit18/blob/master/Screenshots/transaction-status.png)
+    - Here is the confirmation that the transaction has been posted to Etherscan: 
+        ![Transactio Hash in MyCrypto that can be seen on Etherscan](https://github.com/jtmcginley123/unit18/blob/master/Screenshots/confirmation.png)
